@@ -24,15 +24,6 @@
         android:text="@string/button_text"
         tools:ignore="OnClick" />
 
-    <ProgressBar
-        android:id="@+id/progress_bar"
-        style="?android:attr/progressBarStyleLarge"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/tell_joke_button"
-        android:layout_centerHorizontal="true"
-        android:paddingTop="@dimen/progress_bar_top_padding"
-        android:visibility="gone" />
 
     <com.google.android.gms.ads.AdView
         android:id="@+id/adView"
